@@ -1,0 +1,135 @@
+#header {
+    padding: 10px 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:75px;
+    width:100%;
+  }
+
+  svg
+  {
+    color:#555;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  input
+  {
+    border:none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:20rem;
+    max-height:50px;
+    margin-left: 25px;
+    vertical-align:middle;
+    vertical-align:top;
+  }
+  #profile
+  {
+    position: relative;
+    float: right;
+  }
+  .popup{
+    display: block;
+    vertical-align: middle;
+    width:30rem;
+    max-width: 100%;
+    background-color: #fff;
+    text-align: left;
+    border-radius: 4px;
+    border:solid lightgrey 1px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #title
+  {
+    display: inherit;
+    vertical-align:middle;
+    border:none;
+    border-radius:0px;
+    box-shadow:none;
+    width:100%;
+    margin:inherit;
+  }
+  #note
+  {
+    display: inherit;
+    vertical-align: middle;
+    border:none;
+    width:100%;
+    height:200px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+
+  }
+  .container
+  {
+    position:relative;
+    float:left;
+    margin:5px;
+    padding:4px 8px 8px 8px;
+    border-radius:4px;
+    border:solid 1px lightgrey;
+    width:240px;
+    height:250px;
+    box-shadow:0px 0px 2px 0px rgba(0,0,0,0.2);
+    overflow:hidden;
+    z-index:1
+  }
+  .after_container
+  {
+    background-color:white;
+    position:absolute;
+    margin:auto;
+    padding:4px 8px 8px 8px;
+    border-radius:4px;
+    border:solid 1px lightgrey;
+    width:100%;
+    overflow:visible;
+    min-height:270px;
+    z-index:2;
+  }
+  #new
+  {
+    vertical-align: middle;
+    border : none;
+    background-color:rgba(0,0,0,0);
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+  }
+  .error
+  {
+    color:black;
+     background-color:salmon;
+     border: solid 1px red;
+     text-align:center;
+  }
+  .paragraph
+  {
+    width: 100%;
+    height:60%;
+    overflow:inherit;
+    white-space: pre-wrap;
+    word-wrap: normal;
+    padding:2px 4px;
+    font-weight:400;
+    z-index:inherit;
+    margin-bottom: 15px;
+  }
+  .btns
+  {
+    background-color:rgba(0,0,0,0);
+    bottom:15px;
+    position:relative;
+    float : left;
+    border:1px;
+
+  }
+  a
+  {
+    color: black;
+    text-decoration: none;
+  }
+ li::marker
+  {
+    color:rgba(0,0,0,0);
+  }
